@@ -1,0 +1,61 @@
+<!doctype html> 
+<html>
+
+	<head>
+                <meta charset="utf-8" />
+		<title>Poligonos</title>
+		
+        <script>
+var lado = prompt("Insira aqui a quantidade de lados do seu poligono")
+
+
+if(lado == 3) {
+alert("O seu poligono é um triângulo!")
+var lado1 = parseInt(prompt("Insira aqui a quantidade do primeiro lado do triângulo"))
+var lado2 = parseInt(prompt("Insira aqui a quantidade do segundo lado do triângulo"))
+var lado3 = parseInt(prompt("Insira aqui a quantidade do terceiro lado do triângulo"))
+alert("Seu perimêtro é: " + (lado1+lado2+lado3))
+}
+
+if(lado == 4) {
+alert("O seu poligono é um quadrado!")
+var lado4 = parseInt(prompt("Insira aqui a quantidade do primeiro lado do quadrado"))
+var lado5 = parseInt(prompt("Insira aqui a quantidade do segundo lado do quadrado"))
+var lado6 = parseInt(prompt("Insira aqui a quantidade do terceiro lado do quadrado"))
+var lado7 = parseInt(prompt("Insira aqui a quantidade do quarto lado do quadrado"))
+alert("Seu perimêtro é: " + (lado4+lado5+lado6+lado7))
+}
+if(lado == 5) {
+alert("O seu poligono é um pentágono!")
+var lado8 = parseInt(prompt("Insira aqui a quantidade do primeiro lado do pentágono"))
+var lado9 = parseInt(prompt("Insira aqui a quantidade do segundo lado do pentágono"))
+var lado10 = parseInt(prompt("Insira aqui a quantidade do terceiro lado do pentágono"))
+var lado11 = parseInt(prompt("Insira aqui a quantidade do quarto lado do pentágono"))
+var lado12 = parseInt(prompt("Insira aqui a quantidade do quinto lado do pentágono"))
+alert("Seu perimêtro é: " + (lado8+lado9+lado10+lado11+lado12))
+}
+if(lado < 3) {
+    alert("Não é um poligono!")
+}
+if(lado > 5) {
+    alert("Poligono não identificado!")
+}
+
+/*if(gremio < inter) {
+alert("O Inter ganhou!")
+}
+if(gremio == inter) {
+alert("Nenhum ganhou, empate!")
+} */
+
+            </script>
+	</head>
+	<body>
+		
+
+	</body>
+
+
+
+
+</html>	

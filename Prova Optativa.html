@@ -1,0 +1,33 @@
+<html>
+<head>
+<script>
+
+var notaNormal1=parseInt(prompt("Digite a Nota da Prova Normal 1: "));
+var notaNormal2=parseInt(prompt("Digite a Nota da Prova Normal 2: "));
+var provaOpicional=parseInt(prompt("Digite a Nota da Prova Opcional: "));
+
+var media=(notaNormal1+notaNormal2)/2;
+if(notaNormal1<notaNormal2){
+
+    notaNormal1=provaOpicional;
+
+}else{
+    notaNormal2=provaOpicional;
+}
+
+document.write((notaNormal1+notaNormal2)/2);
+if(media>=6){
+    document.write(" APROVADO");
+
+}else if(media<3){
+    document.write(" REPROVADO");
+}
+
+</script>
+</head>
+
+
+<body>
+
+</body>
+</html>

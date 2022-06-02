@@ -1,0 +1,25 @@
+<html>
+<head>
+<script>
+var preco_combustivel=2.90;
+var odometro_inicio_dia = 0;
+var odometro_fim_dia = parseInt(prompt("Digite a quantidade de KM rodados:"));
+
+var total_litros_gasolina_gasta=parseInt(prompt("Digite a quantidade de gasolina gasta:"));
+var total_recebido_dos_passageiros = parseInt(prompt("Digite a quantidade de dinheiro recebido"));
+
+var lucro_liquido=total_recebido_dos_passageiros-(total_litros_gasolina_gasta * preco_combustivel);
+
+document.write("média do consumo em Km/L: "+ odometro_fim_dia/total_litros_gasolina_gasta);
+document.write("    |||||   ");
+document.write("Lucro Liquido: "+lucro_liquido);
+</script>
+</head>
+
+
+<body>
+    
+
+
+</body>
+</html>
